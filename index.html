@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Every day of NASA</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="title">Every day of NASA</h1>
+    <form class="nasaForm" id="jsNASA">
+      <input type="date" class="nasaInput" />
+    </form>
+    <div class="describe">
+      <div class="one">안녕하세요 Every day of NASA입니다.</div>
+      <div class="two">
+        미항공 우주국 NASA에서 매일마다 업로드 되고 있는 사진과 영상들을
+        제공합니다.
+      </div>
+      <div class="three">고화질의 우수한 사진들을 찾아가세요</div>
+      <div class="four">
+        날짜를 입력하시면 해당 날짜에 해당하는 사진 및 영상을 얻으실 수
+        있습니다.
+      </div>
+    </div>
+    <div class="imageBack">
+      <div class="image" id="jsImg">
+        <div class="btns">
+          <input type="button" class="cancleBtn" value="cancle" />
+          <input type="button" class="saveBtn" value="move to save" />
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-title">
+        본 사이트는 NASA에서 제공하는 API를 이용하여 제작하였습니다. 모든 사진
+        및 영상의 저작권은 그 소유자인 NASA 측에 있음을 밝힘니다.
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
